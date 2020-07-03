@@ -1,0 +1,66 @@
+<html>
+<head>
+<title>
+What is PHP
+</title>
+ <link rel="icon" href="phplogo.png"> 
+</head>
+<body>
+<h1>Question-1</h1>
+<center><img src="php.png" alt="PHP logo" width="200px" height="200px"></center>
+</img>
+<br><br>
+<p>
+PHP is a general-purpose scripting language that is especially suited to server-side web development, in which case PHP generally runs on a web server. Any PHP code in a requested file is executed by the PHP runtime, usually to create dynamic web page content or dynamic images used on websites or elsewhere.
+</p>
+<p>
+It can also be used for command-line scripting and client-side graphical user interface (GUI) applications. PHP can be deployed on most web servers, many operating systems and platforms, and can be used with many relational database management systems (RDBMS). Most web hosting providers support PHP for use by their clients. It is available free of charge, and the PHP Group provides the complete source code for users to build, customize and extend for their own use.
+</p><br>
+<button onclick="alert('I love HTML too')">
+I love HTML
+</button>
+<br><br>
+<form action="abc.com/hello.php" method="GET">
+Fname: <input type="text" name="fname" placeholder="First Name"><br><br>
+Age :<input type="text" name="age" placeholder="Age"><br><br>
+Please select your gender:<br>
+<input type="radio" name="gender" value="male"> Male<br>
+<input type="radio" name="gender" value="female"> Female<br><br>
+<input type="submit" value="submit">
+</input>
+</form><br><br><br>
+<h1>Question-2</h1>
+<h1>Google Search</h1>
+<form action="http://google.com/search" method="get">
+<p>
+<input name="q" type="text" placeholder="Google Search"><br>
+</p>
+<p>
+<input type="submit" value="Search on Google"><br>
+</p>
+<br><br><br>
+<h1>Question3</h1>
+</form>
+<form id="myForm" action="hello.php">
+  First name: <input type="text" name="fname" placeholder="Enter the First Name"><br><br>
+  Password: <input type="Password" name="pwd" placeholder="Enter the Password"><br><br>
+  <input type="submit" value="submit">
+</form>
+<br><br><br>
+<button onclick="myFunction1()">Switch to GET</button>
+<button onclick="myFunction()">Switch to POST</button>
+
+<script>
+function myFunction() {
+  document.getElementById("myForm").method = "post";
+  document.getElementById("").innerHTML = "The method is set to POST.";
+}
+
+function myFunction1() {
+  document.getElementById("myForm").method = "get";
+  document.getElementById("").innerHTML = "The method is set to GET.";
+}
+</script>
+
+</body>
+</html>
